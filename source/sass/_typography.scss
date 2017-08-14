@@ -1,0 +1,35 @@
+
+/* Typography */
+
+h1, h2, h3, h4 {
+
+	font-family: $titleFontFamily;
+	font-weight: $titleFontWeight;
+	text-align: center;
+
+}
+
+header {
+
+	h1 {
+
+		font-size: 5em;
+		color: $titleFontColour;
+
+		span {
+
+			font-size: 0.5em;
+			font-weight: 400;
+			color: $titleFontColour;
+
+		}
+
+	}
+
+}
+
+body {
+
+	font-family: $bodyFontFamily
+
+}

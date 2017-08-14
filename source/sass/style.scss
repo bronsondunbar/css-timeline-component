@@ -1,0 +1,57 @@
+
+@import 'bootstrap';
+@import 'font.awesome';
+@import 'font.awesome.animation';
+
+@import 'variables';
+@import 'typography';
+@import 'buttons';
+@import 'timeline';
+
+body {
+
+    background: #F1F1F2;
+    background: $grayGradient;
+    padding: 60px 0 0 0;
+
+}
+
+header {
+
+    text-align: center;
+
+}
+
+a {
+
+    color: $lightBlue;
+    text-decoration: none;
+    transition: $fastTransition;
+    cursor: pointer;
+
+    &:hover, &:focus {
+
+        color: $darkBlue;
+        text-decoration: none;
+
+    }
+
+}
+
+.flex {
+
+    display: flex !important;
+
+}
+
+.panel-default {
+
+    border: none;
+
+}
+
+.panel {
+
+    border-radius: 0;
+
+}
